@@ -1,0 +1,67 @@
+$primary: #f30606;
+$success: #134316;
+$secondary: #446EBA;
+$info: #fff717;
+$warning: #e39647;
+$danger: #7B0E0F;
+$light: #fff;
+$dark: #000;
+
+
+
+$enable-responsive-font-sizes:true;
+$small-font-size: 12px;
+$font-size-base: 0.8125rem;
+$lead-font-size: 16px;
+
+$display-font-sizes: (
+  1: 9.375rem,
+  2: 5.625rem,
+  3: 5rem,
+);
+
+$h6-font-size: 24px;
+$h5-font-size: 32px;
+$h4-font-size: 40px;
+$h3-font-size: 48px;
+$h2-font-size: 56px;
+$h1-font-size: 64px;
+$font-size-base: 1rem;
+
+$font-family-base: 'Josefin Sans';
+
+
+$enable-negative-margins: true;
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "success":    $success,
+  "secondary":  $secondary,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1600px,
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+  xxl: 1320px,
+  xxxl: 1680px,
+) !default;
+
