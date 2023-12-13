@@ -1654,29 +1654,29 @@ const UiKit = () => {
           <Col sm={12}>
             <Container>
               <Row>
-                <Col md={4} className="bg-success">md=4</Col>
-                <Col md={{ span: 4, offset: 4 }} className="bg-success">{'md={{ span: 4, offset: 4 }}'}</Col>
+                <Col md={4} className="bg-primary">md=4</Col>
+                <Col md={{ span: 4, offset: 4 }} className="bg-primary">{'md={{ span: 4, offset: 4 }}'}</Col>
               </Row>
               <Row>
-                <Col md={{ span: 3, offset: 3 }} className="bg-success">{'md={{ span: 3, offset: 3 }}'}</Col>
-                <Col md={{ span: 3, offset: 3 }} className="bg-success">{'md={{ span: 3, offset: 3 }}'}</Col>
+                <Col md={{ span: 3, offset: 3 }} className="bg-primary">{'md={{ span: 3, offset: 3 }}'}</Col>
+                <Col md={{ span: 3, offset: 3 }} className="bg-primary">{'md={{ span: 3, offset: 3 }}'}</Col>
               </Row>
               <Row>
-                <Col md={{ span: 6, offset: 3 }} className="bg-success">{'md={{ span: 6, offset: 3 }}'}</Col>
+                <Col md={{ span: 6, offset: 3 }} className="bg-primary">{'md={{ span: 6, offset: 3 }}'}</Col>
               </Row>
               <Row xs={2} md={4} lg={6}>
-                <Col className="bg-success">1 of 2</Col>
-                <Col className="bg-success">2 of 2</Col>
+                <Col className="bg-primary">1 of 2</Col>
+                <Col className="bg-primary">2 of 2</Col>
               </Row>
               <Row xs={1} md={2}>
-                <Col className="bg-success">1 of 3</Col>
-                <Col className="bg-success">2 of 3</Col>
-                <Col className="bg-success">3 of 3</Col>
+                <Col className="bg-primary">1 of 3</Col>
+                <Col className="bg-primary">2 of 3</Col>
+                <Col className="bg-primary">3 of 3</Col>
               </Row>
               <Row xs="auto">
-                <Col className="bg-success">1 of 3</Col>
-                <Col className="bg-success">2 of 3</Col>
-                <Col className="bg-success">3 of 3</Col>
+                <Col className="bg-primary">1 of 3</Col>
+                <Col className="bg-primary">2 of 3</Col>
+                <Col className="bg-primary">3 of 3</Col>
               </Row>
             </Container>
           </Col>
@@ -1793,24 +1793,7 @@ const UiKit = () => {
                   right
                 </Button>
               </OverlayTrigger>
-              <OverlayTrigger
-                key="center"
-                placement="center"
-                overlay={(
-                  <Tooltip id="tooltip-center">
-                    Tooltip on
 
-                    <strong>center</strong>
-                    .
-                  </Tooltip>
-                )}
-              >
-                <Button variant="secondary">
-                  Tooltip on
-
-                  center
-                </Button>
-              </OverlayTrigger>
               <OverlayTrigger
                 key="left"
                 placement="left"
