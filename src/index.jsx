@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/main.scss';
-
+import './scss/_custom.scss';
 
 
 

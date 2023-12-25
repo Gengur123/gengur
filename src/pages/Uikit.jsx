@@ -53,7 +53,7 @@ const UiKit = () => {
   );
 
   return (
-    <Container fluid>
+    <Container fluid className='bg-white'>
 
       <>
         <Row>
